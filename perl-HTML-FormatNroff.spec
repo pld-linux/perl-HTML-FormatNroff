@@ -16,7 +16,7 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-The HTML::FormatNroff Perl mudule is a formatter that outputs nroff
+The HTML::FormatNroff Perl module is a formatter that outputs nroff
 source for the nroff text processor, using man macros, and tbl
 commands for table processing.
 
