@@ -14,10 +14,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTML-FormatNroff formats HTML as nroff man page.
+HTML::FormatNroff formats HTML as nroff man page.
 
 %description -l pl
-HTML-FormatNroff formatuje HTML jako stronê man.
+HTML::FormatNroff formatuje HTML jako stronê man.
 
 %prep
 %setup -q -n FormatNroff-%{version}
