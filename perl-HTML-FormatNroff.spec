@@ -25,7 +25,7 @@ HTML::FormatNroff formatuje HTML jako stronê man.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 
 %install
