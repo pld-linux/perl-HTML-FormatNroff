@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	FormatNroff perl module
-Summary(pl):	Modu³ perla FormatNroff
+Summary:	FormatNroff - format HTML as nroff man page
+Summary(pl):	FormatNroff - formatowanie HTML-u jako strony podrêcznika man w nroff-ie
 Name:		perl-HTML-FormatNroff
 Version:	0.11
 Release:	9
@@ -16,10 +16,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-HTML::FormatNroff formats HTML as nroff man page.
+The HTML::FormatNroff Perl mudule is a formatter that outputs nroff
+source for the nroff text processor, using man macros, and tbl
+commands for table processing.
 
 %description -l pl
-HTML::FormatNroff formatuje HTML jako stronê man.
+Modu³ Perla HTML::FormatNroff formatuje ¼ród³o w HTML-u wyprowadzaj±c
+wynik w postaci ¼ródla dla procesora tekstu nroff. U¿ywa makr mana, a
+do przetwarzania tabel - poleceñ tbl
 
 %prep
 %setup -q -n FormatNroff-%{version}
