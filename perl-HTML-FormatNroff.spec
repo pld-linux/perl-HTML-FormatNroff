@@ -4,7 +4,8 @@ Summary(pl):	Modu³ perla FormatNroff
 Name:		perl-HTML-FormatNroff
 Version:	0.11
 Release:	9
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/HTML/FormatNroff-%{version}.tar.gz
 # Source0-md5:	62f8fca5c5dd0a4203e7ecea50758190
