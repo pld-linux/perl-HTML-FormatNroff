@@ -26,7 +26,7 @@ HTML-FormatNroff formatuje HTML jako stronê man.
 
 %build
 perl Makefile.PL
-make
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
