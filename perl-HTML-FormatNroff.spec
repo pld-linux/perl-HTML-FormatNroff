@@ -7,6 +7,7 @@ Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/HTML/FormatNroff-%{version}.tar.gz
+# Source0-md5:	62f8fca5c5dd0a4203e7ecea50758190
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 5.6.1
 BuildRequires:	perl-HTML-Tree
