@@ -3,12 +3,12 @@ Summary:	FormatNroff perl module
 Summary(pl):	Modu³ perla FormatNroff
 Name:		perl-HTML-FormatNroff
 Version:	0.11
-Release:	6
+Release:	7
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/HTML/FormatNroff-%{version}.tar.gz
 BuildRequires:	rpm-perlprov >= 3.0.3-16
-BuildRequires:	perl >= 5.6
+BuildRequires:	perl >= 5.6.1
 BuildRequires:	perl-HTML-Tree
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
