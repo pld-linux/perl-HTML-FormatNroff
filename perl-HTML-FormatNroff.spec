@@ -3,7 +3,7 @@ Summary:	FormatNroff perl module
 Summary(pl):	Modu³ perla FormatNroff
 Name:		perl-HTML-FormatNroff
 Version:	0.11
-Release:	7
+Release:	8
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/HTML/FormatNroff-%{version}.tar.gz
@@ -31,13 +31,11 @@ rm -rf $RPM_BUILD_ROOT
 
 %{__make} install DESTDIR=$RPM_BUILD_ROOT
 
-gzip -9nf Changes README ToDo
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc Changes README ToDo
 %{perl_sitelib}/HTML/*.pm
 %{_mandir}/man3/*
