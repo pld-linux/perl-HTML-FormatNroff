@@ -22,7 +22,7 @@ commands for table processing.
 
 %description -l pl
 Modu³ Perla HTML::FormatNroff formatuje ¼ród³o w HTML-u wyprowadzaj±c
-wynik w postaci ¼ródla dla procesora tekstu nroff. U¿ywa makr mana, a
+wynik w postaci ¼ród³a dla procesora tekstu nroff. U¿ywa makr mana, a
 do przetwarzania tabel - poleceñ tbl
 
 %prep
