@@ -3,7 +3,7 @@ Summary:	FormatNroff - format HTML as nroff man page
 Summary(pl):	FormatNroff - formatowanie HTML-u jako strony podrêcznika man w nroff-ie
 Name:		perl-HTML-FormatNroff
 Version:	0.11
-Release:	9
+Release:	10
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
