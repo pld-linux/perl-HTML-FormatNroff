@@ -23,7 +23,7 @@ HTML::FormatNroff formatuje HTML jako stronê man.
 %setup -q -n FormatNroff-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
