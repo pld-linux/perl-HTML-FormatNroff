@@ -3,11 +3,11 @@ Summary:	FormatNroff perl module
 Summary(pl):	Modu³ perla FormatNroff
 Name:		perl-HTML-FormatNroff
 Version:	0.11
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/HTML/FormatNroff-%{version}.tar.gz
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl >= 5.6.1
 BuildRequires:	perl-HTML-Tree
 BuildArch:	noarch
@@ -23,7 +23,8 @@ HTML::FormatNroff formatuje HTML jako stronê man.
 %setup -q -n FormatNroff-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -37,5 +38,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README ToDo
-%{perl_sitelib}/HTML/*.pm
+%{perl_vendorlib}/HTML/*.pm
 %{_mandir}/man3/*
