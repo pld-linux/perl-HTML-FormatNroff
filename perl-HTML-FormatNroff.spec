@@ -3,7 +3,7 @@ Summary:	FormatNroff perl module
 Summary(pl):	Modu³ perla FormatNroff
 Name:		perl-HTML-FormatNroff
 Version:	0.11
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/HTML/FormatNroff-%{version}.tar.gz
