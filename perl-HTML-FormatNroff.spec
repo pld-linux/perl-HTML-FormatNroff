@@ -1,3 +1,5 @@
+%define		pdir	HTML
+%define		pnam	FormatNroff
 %include	/usr/lib/rpm/macros.perl
 Summary:	FormatNroff - format HTML as nroff man page
 Summary(pl.UTF-8):	FormatNroff - formatowanie HTML-u jako strony podręcznika man w nroff-ie
@@ -9,9 +11,10 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/HTML/FormatNroff-%{version}.tar.gz
 # Source0-md5:	62f8fca5c5dd0a4203e7ecea50758190
-BuildRequires:	rpm-perlprov >= 4.1-13
-BuildRequires:	perl-devel >= 1:5.8.0
+URL:		http://search.cpan.org/dist/HTML-FormatNroff/
 BuildRequires:	perl-HTML-Tree
+BuildRequires:	perl-devel >= 1:5.8.0
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
