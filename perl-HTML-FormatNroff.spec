@@ -1,6 +1,5 @@
 %define		pdir	HTML
 %define		pnam	FormatNroff
-%include	/usr/lib/rpm/macros.perl
 Summary:	FormatNroff - format HTML as nroff man page
 Summary(pl.UTF-8):	FormatNroff - formatowanie HTML-u jako strony podręcznika man w nroff-ie
 Name:		perl-HTML-FormatNroff
